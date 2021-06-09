@@ -1,0 +1,249 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*home section*/
+.home{
+    background-image: url('../images/s.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.navbar{
+    background-color:rgba(0, 0, 0, 0.5)!important;
+}
+.navbar-nav{
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-brand{
+    font-size: 25px;
+    color:#fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-brand:hover{
+    color:#fff;
+}
+.nav-link{
+    color:  #fff!important;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: .2rem;
+}
+.nav-link:hover{
+    color:#009933!important;
+    text-decoration: underline;
+
+}
+.content{
+    color: #fff;
+    padding: 200px;
+}
+.content h2{
+    font-size: 50px;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    text-shadow: .1rem .1rem .8rem black;
+}
+.content h4{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+.btn-outline-light{
+    color: #fff!important;
+    background: transparent;
+    margin-top: 15px;
+    border-radius: 0%;
+    border-width: 2.5px;
+    letter-spacing: .1rem;
+    padding: .4rem .9rem;
+}
+.btn-outline-light:hover{
+    color:#000 !important;
+}
+
+/*courses section*/
+.btn-secondary{
+    color:#000;
+    background: #009933;
+    border-radius: 0%;
+    margin:1rem;
+    border-width: medium;
+    border-color:#009933;
+    padding: .6rem, 1.2rem;
+    font-size: 1.2rem;
+    color: white;
+}
+.btn-secondary:hover{
+    background-color:#004d1a;
+    border-color:  #004d1a;
+}
+.narrow{
+    width: 75%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+}
+.narrow h1{
+    font-size: 2.4rem;
+}
+
+/* features section*/
+.jumbotron{
+    margin-bottom: 0;
+}
+.jumbotron h1{
+   font-size: 1.9rem;
+   margin-bottom: 1.9rem;
+}
+.col-4 h3{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    padding-bottom: .4rem;
+}
+.col-4 p{
+    font-size: 1.1rem;
+}
+.jumbotron i{
+    color:#009933;
+    margin-bottom: 0;
+}
+
+/*resources*/
+.underline{
+    width:3rem;
+    height: .2rem;
+    background-color: #009933;
+    margin: auto;
+}
+.resources{
+    background: url('../images/header.jpg');
+    color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.resources::after{
+    background-color: rgba(0, 0, 0, 1);
+}
+.resources h3{
+    margin-bottom: 2rem;
+    padding-top: 7rem;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight:500;
+}
+.margin-upper{
+   margin-top:2.5rem;
+}
+.resources p{
+    margin-top: 1rem;
+    margin-bottom: 7rem;
+}
+.resources i{
+    color: #009933;
+}
+
+/*clients*/
+.clients h3{
+     font-size: 1.9rem;
+     margin: 10px 0;
+     text-transform: uppercase;
+}
+blockquote .svg-inline--fa{
+    color:#009933;
+}
+.clients img{
+      border-radius: 50%;
+      width: 100%;
+}
+.clients-hr{
+    border-top:.05rem solid #009933;
+}
+
+/*contact*/
+footer{
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding-bottom: 2rem;
+}
+.col-5{
+    margin: auto;
+    padding-top: 5rem;
+}
+.col-5 a{
+    color:#fff;
+    font-size: 1rem;
+}
+.col-5 a:hover{
+    color: #009933;
+}
+hr.f{
+    width: 100%;
+    border-top: .2rem solid #fff;
+    margin: 2rem;
+}
+
+@media(max-width: 560px){
+    .content{
+        color: #fff;
+        padding: 100px;
+    }
+    .content h2{
+        font-size: 23px;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+        text-shadow: .1rem .1rem .8rem black;
+    }
+    .content h4{
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+    }
+    .btn-outline-light{
+        color: #fff!important;
+        background: transparent;
+        margin-top: 15px;
+        border-radius: 0%;
+        border-width: 2.5px;
+        padding: .3rem .4rem;
+    }
+    .narrow h1{
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .narrow{
+        width: 100%;
+        margin: 1.5rem auto;
+        padding-top: 2rem;
+    }
+    .narrow p{
+        font-size: 1rem;
+    }
+    .col-md-6{
+        margin-bottom: 1.5rem;
+    }
+    .btn-secondary{
+        color:#000;
+        background: #009933;
+        border-radius: 0%;
+        margin:1rem;
+        border-width: medium;
+        border-color:#009933;
+        padding: .3rem, 0.2rem;
+        font-size: 1rem;
+        color: white;
+    }
+    .col-md-8{
+        margin-top: 1.5rem;
+    }
+    img{
+        margin-top: 2rem;
+    }
+    hr.f{
+        display: none;
+    }
+}
